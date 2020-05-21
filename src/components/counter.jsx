@@ -52,6 +52,7 @@ class Counter extends Component {
     // let classes = this.getBadgeClasses();
     // console.log("props", this.props);
     console.log("Counter - rendered");
+    const { onDelete, onIncrement } = this.props;
     return (
       <div>
         {/* <h4> {this.props.id}</h4> */}
@@ -59,13 +60,13 @@ class Counter extends Component {
         {/* <span style={this.styles} className="badge badge-primary m-2">{this.formatCount()} </span> */}
         <span className={this.getBadgeClasses()}>{this.formatCount()} </span>
         <button
-          onClick={() => this.props.onIncrement(this.props.counter)}
+          onClick={() => onIncrement(this.props.counter)}
           className="btn badge-secondary btn-sm"
         >
           Increment
         </button>
         <button
-          onClick={() => this.props.onDelete(this.props.counter.id)}
+          onClick={() => onDelete(this.props.counter.id)}
           className="btn btn-danger btn-sm m-2"
         >
           Delete

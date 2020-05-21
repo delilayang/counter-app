@@ -39,7 +39,6 @@ class Counters extends Component {
     console.log("Counters - rendered");
     const { onReset, onDelete, onIncrement } = this.props; // Obj Destructuring
     return (
-      
       <div>
         <button onClick={onReset} className="btn btn-primary btn-sm m-2">
           Reset
@@ -47,9 +46,9 @@ class Counters extends Component {
         {this.props.counters.map((counter) => (
           <Counter
             key={counter.id}
+            counter={counter}
             onDelete={onDelete}
             onIncrement={onIncrement}
-            counter={counter}
             // value={counter.value}
             // id={counter.id}
           >
