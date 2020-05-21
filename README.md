@@ -1,4 +1,4 @@
-# counter-app
-# npm i
-# cd counter-app
-# npm start
+#### counter-app
+#### npm i
+#### cd counter-app
+#### npm start
