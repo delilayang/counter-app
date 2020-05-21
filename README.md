@@ -1,5 +1,5 @@
-#### counter-app developed by React
+#### /// counter-app developed by React
 
-#### npm i 
-#### cd counter-app
-#### npm start
+#### $npm i 
+#### $cd counter-app
+#### $npm start
