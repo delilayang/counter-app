@@ -1,4 +1,4 @@
-#### /// counter-app developed by React
+#### /// Project "counter-app" developed by React
 
 #### $npm i 
 #### $npm i bootstrap
